@@ -1,8 +1,17 @@
 {
   "name": "mailchannels-node-railway-starter",
   "version": "0.1.0",
+  "private": true,
   "description": "A minimal Node.js starter template for sending transactional emails with MailChannels on Railway",
   "license": "MIT",
+  "author": {
+    "name": "MailChannels",
+    "email": "dev@mailchannels.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mailchannels/mailchannels-node-railway-starter.git"
+  },
   "type": "module",
   "main": "index.ts",
   "scripts": {

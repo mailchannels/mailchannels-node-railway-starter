@@ -11,4 +11,4 @@ A minimal Node.js starter template for sending transactional emails with MailCha
 
 ## License
 
-MIT License
+[MIT License](LICENSE)
