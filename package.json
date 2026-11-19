@@ -16,7 +16,12 @@
   "main": "index.ts",
   "scripts": {
     "dev": "node --watch --env-file-if-exists=.env index.ts",
-    "start": "node index.ts"
+    "start": "node index.ts",
+    "test:types": "tsc --noEmit",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "format": "oxfmt --check",
+    "format:fix": "oxfmt"
   },
   "dependencies": {
     "@mailchannels/sdk": "latest"
@@ -24,7 +29,10 @@
   "devDependencies": {
     "@railway/cli": "^5.74.0",
     "@types/node": "^26.6.6",
-    "railway": "^3.17.0"
+    "oxfmt": "^0.79.0",
+    "oxlint": "^1.94.0",
+    "railway": "^3.17.0",
+    "typescript": "^7.0.2"
   },
   "engines": {
     "node": ">=22.18.0"
