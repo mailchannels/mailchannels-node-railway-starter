@@ -24,10 +24,9 @@
     "format:fix": "oxfmt"
   },
   "dependencies": {
-    "@mailchannels/sdk": "latest"
+    "@mailchannels/sdk": "^1.10.0"
   },
   "devDependencies": {
-    "@railway/cli": "^5.74.0",
     "@types/node": "^26.6.6",
     "oxfmt": "^0.79.0",
     "oxlint": "^1.94.0",
